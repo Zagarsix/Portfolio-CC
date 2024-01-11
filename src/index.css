@@ -1,0 +1,64 @@
+/* MAIN COLOR PALETTE & FONT SHENANIGANS
+
+For backgrounds ----> #260000
+For text -----> #F1E886
+Currently looking for a third color mate...
+Trying RN with Cabin
+
+*/
+
+
+html{
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  font-family: 'Cabin', sans-serif;
+  color: #fae500;
+  scroll-behavior: smooth;
+}
+
+
+/* Dashboard Styling */
+
+.dashboard{
+  color: #27ff20;
+  min-height: 100vh;
+}
+.dashboard h1{
+  font-weight: 700;
+}
+#specialName{
+  color: rgb(50, 248, 248);
+  text-shadow: 0 0 0.2em rgb(0, 172, 0), 0 0 0.2em green,
+0 0 0.2em green
+}
+/* Main Component Styling */
+
+.introduction, .preskills, .skills, .interests, .contact{
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.projects{
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Card Styling */
+.card-img-overlay{
+  background-color: rgb(241, 232, 134,0.5);
+  color: #260000;
+  font-weight: 800;
+}
+
+.card{
+  transition: transform .2s;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
