@@ -1,12 +1,12 @@
 import React from 'react';
-import logoCC from "./media/react.png"
+import logoCC from "./media/logoDark.png"
 
 function Navbar() {
     return (
-        <nav class="navbar nav-underline">
-            <div class="container-fluid">
+        <nav class="navbar nav-underline fixed-top" style={{background:"black"}}>
+            <div class="container-fluid justify-content-betweeen" style={{background:"black"}}>
                 <a class="navbar-brand" href="#">
-                    <img src={logoCC} alt="Bootstrap" width="100" height="100"></img>
+                    <img src={logoCC} alt="Bootstrap" width="270" height="100"></img>
                 </a>
                 <ul class="nav nav-underline justify-content-center">
                     <li class="nav-item">

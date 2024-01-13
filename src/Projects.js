@@ -1,13 +1,10 @@
 import React from 'react'
 import javascript from './media/javascript.png'
-import react from './media/react.png'
 import bootstrap from './media/bootstrap.png'
 import html from './media/html.png'
 import css from './media/css.png'
 import python from './media/python.png'
 import flask from './media/flask.png'
-import sqlalch from './media/sqlalchemy.png'
-import sql from './media/sql.png'
 
 function Projects() {
   const handleClick = (url) => {

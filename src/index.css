@@ -26,6 +26,8 @@ body {
 .dashboard{
   color: #27ff20;
   min-height: 100vh;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 .dashboard h1{
   font-weight: 700;
