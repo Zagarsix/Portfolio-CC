@@ -14,6 +14,7 @@ html{
 
 body {
   background-color: black;
+  background-image: linear-gradient(45deg, black,rgb(5, 5, 87));
   height: 100%;
   font-family: 'Cabin', sans-serif;
   color: #fae500;
@@ -22,7 +23,6 @@ body {
 
 
 /* Dashboard Styling */
-
 .dashboard{
   color: #27ff20;
   min-height: 100vh;
