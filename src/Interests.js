@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Interests() {
+const Interests = () => {
   return (
     <div className='interests container d-flex flex-column justify-content-center'>
       <div className="row g-5">
@@ -26,4 +26,4 @@ function Interests() {
   )
 }
 
-export default Interests
+export default Interests;

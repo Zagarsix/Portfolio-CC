@@ -1,30 +1,34 @@
 import React from 'react';
 import logoCC from "./media/logoDark.png"
+import {Link} from "react-router-dom";
 
-function Navbar() {
+const Navbar = () => {
     return (
-        <nav class="navbar fixed-top" style={{ background: "black" }}>
-            <div class="container-fluid justify-content-between">
-                <a class="navbar-brand" href="/">
+        <nav className="navbar fixed-top" style={{ background: "black" }}>
+            <div className="container-fluid justify-content-between">
+                <Link className="navbar-brand" to="/">
                     <img src={logoCC} alt="Zagarsix" width="270" height="100"></img>
-                </a>
-                <div class="section" style={{background:"green"}}>
-                <nav class="navbar px-5 mx-5" style={{background:"pink"}}>
-                    <ul class="nav nav-underline">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Introduction">Introducción</a>
+                </Link>
+                <div className="section">
+                <nav className="navbar px-5 mx-5" style={{color:"#1980e0", fontSize:"20px"}}>
+                    <ul className="nav nav-underline">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Introduction">Introducción</Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Habilidades</a>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/PreSkills">Prehabilidades</Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Lenguajes y herramientas</a>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Skills">Lenguajes y herramientas</Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Projects">Proyectos</Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contáctame</a>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Interests">Intereses</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Contact">Contáctame</Link>
                         </li>
                     </ul>
                 </nav>
@@ -38,4 +42,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Introduction() {
+const Introduction = () => {
   return (
     <div className='introduction container-fluid d-flex flex-column justify-content-center'>
       <div className='row'>
@@ -20,4 +20,4 @@ function Introduction() {
   )
 }
 
-export default Introduction
+export default Introduction;

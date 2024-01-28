@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+const Contact = () => {
   const handleClick = (url) => {
     window.open(url,'__blank','noopener,noreferrer');
   }
@@ -27,4 +27,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contact;

@@ -10,7 +10,7 @@ import sqlalch from './media/sqlalchemy.png'
 import sql from './media/sql.png'
 
 
-function Skills() {
+const Skills = () => {
     return (
         <div className='skills container d-flex flex-column justify-content-center'>
             <div className='row'>
@@ -58,4 +58,4 @@ function Skills() {
     )
 }
 
-export default Skills
+export default Skills;

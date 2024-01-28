@@ -6,7 +6,7 @@ import css from './media/css.png'
 import python from './media/python.png'
 import flask from './media/flask.png'
 
-function Projects() {
+const Projects = () => {
   const handleClick = (url) => {
     window.open(url,'__blank','noopener,noreferrer');
   }
@@ -14,7 +14,7 @@ function Projects() {
     <div className='projects container d-flex flex-column justify-content-center'>
       <div className='row'>
         <div className='col-md-12'>
-          <h1 className='display-4 my-5' data-aos='fade-right' data-aos-delay='200'>My projects</h1>
+          <h1 className='display-4 my-5' data-aos='fade-right' data-aos-delay='200'>Mis proyectos</h1>
         </div>
       </div>
       <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-100'>
@@ -90,4 +90,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Projects;
