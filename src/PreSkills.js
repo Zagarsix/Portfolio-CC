@@ -2,7 +2,7 @@ import React from 'react'
 
 const PreSkills = () => {
   return (
-    <div className='preskills container-fluid d-flex flex-column justify-content-center'>
+    <div className='Preskills container-fluid d-flex flex-column justify-content-center'>
         <div className='row'>
             <div className='col-md-12'>
                 <h1 className='display-3' data-aos='fade-down' data-aos-delay='200'>Tempor commodo ullamcorper a lacus vestibulum sed arcu. <br />

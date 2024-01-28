@@ -10,9 +10,9 @@ import sqlalch from './media/sqlalchemy.png'
 import sql from './media/sql.png'
 
 
-const Skills = () => {
+const Tools = () => {
     return (
-        <div className='skills container d-flex flex-column justify-content-center'>
+        <div className='Tools container d-flex flex-column justify-content-center'>
             <div className='row'>
                 <div className='col-md-12'>
                     <h1 className='display-4 fst-italic text-start ps-3' data-aos='fade-right' data-aos-delay='300'>Frontend</h1>
@@ -58,4 +58,4 @@ const Skills = () => {
     )
 }
 
-export default Skills;
+export default Tools;

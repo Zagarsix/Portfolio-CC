@@ -4,22 +4,22 @@ import {Link} from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="navbar fixed-top" style={{ background: "black" }}>
+        <nav className="navbar fixed-top" style={{ background: "black"}}>
             <div className="container-fluid justify-content-between">
-                <Link className="navbar-brand" to="/">
-                    <img src={logoCC} alt="Zagarsix" width="270" height="100"></img>
+                <Link className="navbar-brand px-2 mx-1" to="/">
+                    <img src={logoCC} alt="Zagarsix" width="200" height="70"></img>
                 </Link>
                 <div className="section">
-                <nav className="navbar px-5 mx-5" style={{color:"#1980e0", fontSize:"20px"}}>
+                <nav className="navbarFull px-5 mx-5" style={{fontWeight:"bold", fontSize:"20px"}}>
                     <ul className="nav nav-underline">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Introduction">Introducción</Link>
+                            <Link className="nav-link" to="/About">Sobre mí</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/PreSkills">Prehabilidades</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Skills">Lenguajes y herramientas</Link>
+                            <Link className="nav-link" to="/Tools">Lenguajes y herramientas</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/Projects">Proyectos</Link>
@@ -28,14 +28,13 @@ const Navbar = () => {
                             <Link className="nav-link" to="/Interests">Intereses</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Contact">Contáctame</Link>
+                            <Link className="nav-link" to="/Contact">Contacto</Link>
                         </li>
                     </ul>
                 </nav>
                 </div>
-                <div style={{background:"green"}}>
+                <div>
                     <p>Hola Mundo</p>
-
                 </div>
             </div>
         </nav>

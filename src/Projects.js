@@ -11,13 +11,9 @@ const Projects = () => {
     window.open(url,'__blank','noopener,noreferrer');
   }
   return (
-    <div className='projects container d-flex flex-column justify-content-center'>
-      <div className='row'>
-        <div className='col-md-12'>
-          <h1 className='display-4 my-5' data-aos='fade-right' data-aos-delay='200'>Mis proyectos</h1>
-        </div>
-      </div>
-      <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-100'>
+    <div className='Projects container d-flex flex-column justify-content-center'>
+      
+      <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 w-80'>
         <div className="col" data-aos='flip-up' data-aos-delay='400'>
           <div className="card" onClick={() => handleClick('https://google.cl')}>
             <img src={css} className="card-img" alt="Error!" />
@@ -80,8 +76,8 @@ const Projects = () => {
         </div>
       </div>
       <div className='row'>
-        <div className='col-md-12' data-aos='zoom-in' data-aos-delay='1800'>
-          <h1 className='display-6 my-5'>Check out my GitHub!<br /><i className="fa-brands fa-xl fa-square-github" onClick={() => handleClick('https://github.com/Zagarsix')}></i></h1>
+        <div className='col-md-12' data-aos='zoom-in' data-aos-delay='1400'>
+          <h1 className='display-6 p-3 m-5'>Revisa mi Github!<br /><i className="fa-brands fa-2xl fa-square-github" onClick={() => handleClick('https://github.com/Zagarsix')}></i></h1>
         </div>
       </div>
 

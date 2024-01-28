@@ -2,7 +2,7 @@ import React from 'react'
 
 const Interests = () => {
   return (
-    <div className='interests container d-flex flex-column justify-content-center'>
+    <div className='Interests container d-flex flex-column justify-content-center'>
       <div className="row g-5">
         <div className="col-md-12" data-aos='fade-right' data-aos-delay='200'>
           <h1 className="display-6 fst-italic">
