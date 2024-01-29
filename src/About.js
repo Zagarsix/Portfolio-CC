@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='About container-fluid d-flex flex-column justify-content-center'>
+    <div className='About container-fluid d-flex flex-column justify-content-start'>
       <div className='row'>
         <div className='col-12'>
           <h1 className='display-5' data-aos='fade-right' data-aos-delay='200'>Estudié en <strong>4Geeks Academy</strong></h1>

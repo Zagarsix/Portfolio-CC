@@ -31,7 +31,10 @@ body {
   transition-duration: .5s;
   filter: brightness(150%);
 }
-
+.nav-link{
+  padding: 5px;
+  margin-inline: 7px; 
+}
 .nav-link:hover{
   filter: brightness(150%);
   color: #38b6ff;
@@ -66,7 +69,6 @@ margin: 80px;
 .Contact{
   overflow-x: hidden;
   display: flex;
-  align-items: start;
 }
 
 .Projects{
@@ -84,6 +86,7 @@ filter: opacity(40%);
 .fa-brands:hover, .fa-solid:hover{
   filter: opacity(150%);
   filter:brightness(180%);
+  cursor: pointer;
   }
 
 /* Card Styling */

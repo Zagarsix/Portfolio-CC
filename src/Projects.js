@@ -77,7 +77,7 @@ const Projects = () => {
       </div>
       <div className='row'>
         <div className='col-md-12' data-aos='zoom-in' data-aos-delay='1400'>
-          <h1 className='display-6 p-3 m-5'>Revisa mi Github!<br /><i className="fa-brands fa-2xl fa-square-github" onClick={() => handleClick('https://github.com/Zagarsix')}></i></h1>
+          <h1 className='display-6 p-3 m-5'>Revisa mi Github!<br /><i className="fa-brands fa-flip fa-2xl fa-square-github" onClick={() => handleClick('https://github.com/Zagarsix')}></i></h1>
         </div>
       </div>
 

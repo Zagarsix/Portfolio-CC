@@ -23,13 +23,13 @@ const Home = () => {
           <h1 className='display-3' id="specialName"><Typewriter loop cursor delaySpeed={2500} words={['Claudio Candia', 'Zagarsix']} /></h1>
           <h2 className='h4 fst-italic'>Desarrollador Full Stack</h2>
         </div>
-        <div className="angles col-12 py-3" data-aos='fade-down' data-aos-delay='500'>
+        <div className="angles col-12 py-2" data-aos='fade-down' data-aos-delay='800'>
           <i className="fa-solid fa-angles-down fa-2xl"></i>
         </div>
       </div>
       <div className='row p-2 mt-4 align-items-start'>
         <div className='col-12'>
-          <h1 className='p-2' data-aos='fade-right' data-aos-delay='500'>Estudié en <strong>4Geeks Academy</strong></h1>
+          <h1 className='p-2 fst-italic' data-aos='fade-right' data-aos-delay='500'>Estudié en <strong>4Geeks Academy</strong></h1>
           <h1 className='mt-3' data-aos='fade-left' data-aos-delay='500'>adquiriendo conocimientos en <strong>Javascript y Python,</strong><br />
             y tecnologías como <strong>Html5, CSS3, React, Bootstrap, Sql Alchemy, Flask y Git.</strong><br />
             Mi objetivo es profundizar en estos lenguajes y aprender nuevas tecnologías complementarias.

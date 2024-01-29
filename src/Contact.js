@@ -5,11 +5,11 @@ const Contact = () => {
     window.open(url, '__blank', 'noopener,noreferrer');
   }
   return (
-    <div className='Contact container d-flex flex-column justify-content-center'>
+    <div className='Contact container d-flex flex-column justify-content-start'>
       <div className="row" data-aos='zoom-out' data-aos-delay='700'>
-        <div className="col-md-12 p-3 mb-4">
-          <h1 className='display 1 fst-italic'>Ante cualquier consulta, duda o sugerencia... </h1>
-          <h1 className="display 1 fst-bold">
+        <div className="col-md-12 p-3 mb-5">
+          <h1 className='display-5 fst-italic'>Ante cualquier consulta, duda o sugerencia... </h1>
+          <h1 className="display-2">
             <strong>...contáctame!</strong>
           </h1>
         </div>
