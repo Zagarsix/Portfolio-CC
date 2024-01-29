@@ -5,6 +5,7 @@ import injectContext from './store/appContext';
 import './styles/App.css';
 
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 import Home from './Home';
 import About from './About';
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<h1>Not found!</h1>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
