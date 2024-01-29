@@ -1,4 +1,6 @@
 /* MAIN COLOR PALETTE
+background-image: linear-gradient(45deg, black,rgb(5, 5, 87));
+ color: #38b6ff;
 */
 
 html{
@@ -94,18 +96,40 @@ filter: opacity(40%);
   }
 
 /* Card Styling */
+.card-img{
+  width: 100%;
+  height: 100%;
+}
+@supports(object-fit: cover){
+    .card-img{
+      height: 100%;
+      object-fit:fill;
+      object-position:center center;
+    }
+}
+
 .card-img-overlay{
-  background-color: rgba(168, 235, 231, 0.5);
-  color: #260000;
+  background-color: rgba(161, 253, 238, 0.5);
+  color: rgb(5, 5, 87);
   font-weight: 800;
+  filter: opacity(70%);
+}
+
+.card-img-overlay:hover{
+  filter: opacity(100%);
+  cursor: pointer;
 }
 
 .card{
   transition: transform .2s;
+  width: auto;
+  height: 250px;
+  display: block;
 }
 
 .card:hover{
   transform: scale(1.1);
+  filter: brightness(140%);
 }
 
 footer {
