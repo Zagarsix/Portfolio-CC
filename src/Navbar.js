@@ -13,7 +13,7 @@ const Navbar = () => {
                     <img src={logoCC} alt="Zagarsix" width="200" height="70"></img>
                 </Link>
                 <div className="section">
-                    <nav className="navbarFull px-5 mx-5" style={{ fontWeight: "bold", fontSize: "22px" }}>
+                    <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}>
                         <ul className="nav nav-underline">
                             <li className="nav-item">
                                 <Link className="nav-link" to="/About">Sobre mí</Link>

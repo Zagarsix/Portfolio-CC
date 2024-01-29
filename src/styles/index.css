@@ -33,7 +33,7 @@ body {
 }
 .nav-link{
   padding: 5px;
-  margin-inline: 7px; 
+  margin-inline: 5px; 
 }
 .nav-link:hover{
   filter: brightness(150%);
@@ -44,7 +44,7 @@ body {
 .Home{
   color: #38b6ff;
   min-height: 100vh;
-  padding: 50px 150px 100px 150px;
+  padding: 20px 150px 100px 150px;
   margin-top: 150px;
 }
 
@@ -62,8 +62,9 @@ margin: 80px;
 .About, .Preskills, .Tools, .Projects, .Interests, .Contact{
   min-height: 100vh;
   overflow-x: hidden;
-  padding: 50px 150px 100px 150px;
-  margin-top: 150px;
+  padding: 20px 150px 100px 150px;
+  margin-top: 130px;
+  margin-bottom: 150px;
 }
 
 .Contact{
@@ -77,6 +78,9 @@ margin: 80px;
   align-items: center;
 }
 
+.Review{
+  margin-top: 50px;
+}
 .fa-brands, .fa-solid{
 padding: 50px;
 margin: 50px;
@@ -91,7 +95,7 @@ filter: opacity(40%);
 
 /* Card Styling */
 .card-img-overlay{
-  background-color: rgb(241, 232, 134,0.5);
+  background-color: rgba(168, 235, 231, 0.5);
   color: #260000;
   font-weight: 800;
 }
@@ -113,4 +117,5 @@ footer {
   border-color: rgb(156, 156, 156);
   border-top-style: solid;
   border-top-width: 1px;
+  font-size: 13px;
 }

@@ -24,7 +24,7 @@ const Tools = () => {
         <div className='Tools container d-flex flex-column justify-content-center'>
             <div className='row'>
                 <div className='col-md-12'>
-                    <h1 className='display-4 fst-italic text-start ps-3' data-aos='fade-right' data-aos-delay='200'>Frontend</h1>
+                    <h1 className='display-6 fst-italic text-start ps-3' data-aos='fade-right' data-aos-delay='200'>Frontend</h1>
                 </div>
             </div>
             <div className='row row-cols-5 justify-content-around'>
@@ -46,7 +46,7 @@ const Tools = () => {
             </div>
             <div className='row'>
                 <div className='col-md-12' data-aos='fade-left' data-aos-delay='1400'>
-                    <h1 className='display-4 fst-italic text-end pe-4 pt-5'>Backend</h1>
+                    <h1 className='display-6 fst-italic text-end pe-4 pt-5'>Backend</h1>
                 </div>
             </div>
             <div className='row row-cols-4 justify-content-around pb-5 px-5'>
@@ -68,7 +68,7 @@ const Tools = () => {
             </div>
             <div className='row'>
                 <div className='col-md-12' data-aos='fade-right' data-aos-delay='400'>
-                    <h1 className='display-4 fst-italic text-start ps-3 p-3 mt-3'>Otras herramientas</h1>
+                    <h1 className='display-6 fst-italic text-start ps-3 p-3 mt-3'>Otras herramientas</h1>
                 </div>
             </div>
             <div className='row row-cols-4 justify-content-around pb-5 px-5'>
