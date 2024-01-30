@@ -17,60 +17,60 @@ const Projects = () => {
         <div className="col" data-aos='flip-up' data-aos-delay='400'>
           <div className="card" onClick={() => handleClick('https://google.cl')}>
             <img src={clonMeetup} className="card-img" alt="Error!"/>
-            <div className="card-img-overlay d-flex flex-column justify-content-center">
+            <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Clon de Meetup</h5>
-              <p className="card-text">Lorem ipsum</p>
-              <p className="card-text"><small>Made with JavaScript & React</small></p>
+              {/* <p className="card-text">Lorem ipsum</p>
+              <p className="card-text"><small>Made with JavaScript & React</small></p> */}
             </div>
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='600'>
           <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
             <img src={psicoreinventar} className="card-img" alt="Error!" />
-            <div className="card-img-overlay d-flex flex-column justify-content-center">
+            <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Psicoreinventar</h5>
-              <p className="card-text">Final Proyect</p>
-              <p className="card-text"><small>Made with React & Boostrap , Python & Flask</small></p>
+              {/* <p className="card-text">Final Proyect</p>
+              <p className="card-text"><small>Made with React & Boostrap , Python & Flask</small></p> */}
             </div>
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='800'>
           <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
             <img src={battleship} className="card-img" alt="Error!" />
-            <div className="card-img-overlay d-flex flex-column justify-content-center">
+            <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Battleship</h5>
-              <p className="card-text">Simple Game based on Battleship where you fight against the CPU.</p>
-              <p className="card-text"><small>Made with JavaScript & React with tools such as Flux and ContextAPI</small></p>
+              {/* <p className="card-text">Simple Game based on Battleship where you fight against the CPU.</p>
+              <p className="card-text"><small>Made with JavaScript & React with tools such as Flux and ContextAPI</small></p> */}
             </div>
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1000'>
           <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
             <img src={starwars} className="card-img" alt="Error!" />
-            <div className="card-img-overlay d-flex flex-column justify-content-center">
+            <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Star Wars Blog</h5>
-              <p className="card-text">Webpage that showcases Star Wars Characters, Vehicles and Planets. With functionality to add favorites.</p>
-              <p className="card-text"><small>Made with JavaScript & React</small></p>
+              {/* <p className="card-text">Webpage that showcases Star Wars Characters, Vehicles and Planets. With functionality to add favorites.</p>
+              <p className="card-text"><small>Made with JavaScript & React</small></p> */}
             </div>
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1200'>
           <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
             <img src={tictactoe} className="card-img" alt="Error!" />
-            <div className="card-img-overlay d-flex flex-column justify-content-center">
+            <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">TicTacToe</h5>
-              <p className="card-text">Lorem Ipsum</p>
-              <p className="card-text"><small>Made with React.js</small></p>
+              {/* <p className="card-text">Lorem Ipsum</p>
+              <p className="card-text"><small>Made with React.js</small></p> */}
             </div>
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1400'>
           <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
             <img src={jwt} className="card-img" alt="Error!" />
-            <div className="card-img-overlay d-flex flex-column justify-content-center">
+            <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">JWT Authentication</h5>
-              <p className="card-text">Basic Login with JWT Token Authentication, and protection of private views (/private), made to learn basic Authentication on Backend and the use of sessionStorage on Frontend.</p>
-              <p className="card-text"><small>Made with JavaScript & React, Python, Flask, Werkzeug & JWT.</small></p>
+              {/* <p className="card-text">Basic Login with JWT Token Authentication, and protection of private views (/private), made to learn basic Authentication on Backend and the use of sessionStorage on Frontend.</p>
+              <p className="card-text"><small>Made with JavaScript & React, Python, Flask, Werkzeug & JWT.</small></p> */}
             </div>
           </div>
         </div>

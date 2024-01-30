@@ -14,7 +14,7 @@ const Contact = () => {
           </h1>
         </div>
         <div className="col-md-3">
-          <h1 className='display-6'><i className="fa-brands fa-linkedin fa-beat-fade fa-2xl" onClick={() => { handleClick('https://www.linkedin.com/in') }}></i></h1>
+          <h1 className='display-6'><i className="fa-brands fa-linkedin fa-beat-fade fa-2xl" onClick={() => { handleClick('https://www.linkedin.com/in/zagarsix117/') }}></i></h1>
         </div>
         <div className="col-md-3">
           <h1 className='display-6'><i className="fa-brands fa-square-github fa-beat-fade fa-2xl " onClick={() => { handleClick('https://github.com/Zagarsix') }}></i></h1>
