@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Interests = () => {
+const Hobbies = () => {
   return (
     <div className='Interests container d-flex flex-column justify-content-center'>
       <div className="row g-5">
@@ -26,4 +26,4 @@ const Interests = () => {
   )
 }
 
-export default Interests;
+export default Hobbies;

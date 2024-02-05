@@ -9,10 +9,8 @@ import Footer from './Footer';
 
 import Home from './Home';
 import About from './About';
-import PreSkills from './PreSkills';
 import Tools from './Tools';
 import Projects from './Projects';
-import Interests from './Interests';
 import Contact from './Contact';
 
 
@@ -27,10 +25,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="/PreSkills" element={<PreSkills />} />
+          {/* <Route path="/PreSkills" element={<PreSkills />} /> */}
           <Route path="/Tools" element={<Tools />} />
           <Route path="/Projects" element={<Projects />} />
-          <Route path="/Interests" element={<Interests />} />
+          {/* <Route path="/Interests" element={<Interests />} /> */}
           <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<h1>Not found!</h1>} />
         </Routes>

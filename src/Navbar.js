@@ -19,16 +19,10 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/About">Sobre mí</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/PreSkills">Prehabilidades</Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link className="nav-link" to="/Tools">Lenguajes y herramientas</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Projects">Proyectos</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/Interests">Intereses</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Contact">Contacto</Link>

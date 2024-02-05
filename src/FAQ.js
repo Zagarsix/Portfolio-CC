@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PreSkills = () => {
+const FAQ = () => {
   return (
     <div className='Preskills container-fluid d-flex flex-column justify-content-center'>
         <div className='row'>
@@ -19,4 +19,4 @@ const PreSkills = () => {
   )
 }
 
-export default PreSkills;
+export default FAQ;
