@@ -72,10 +72,30 @@ margin: 80px;
   margin-top: 130px;
   margin-bottom: 100px;
 }
+
+li{
+  padding: 5px;
+}
 .Perfil2{
 height: 180px;
 width: 150px;
-padding: 10px;
+padding: 5px;
+border-radius: 10px;
+border-style: solid;
+border-width: 1px;
+border-color: #38b6ff;
+}
+
+.CV{
+  filter: opacity(60%);
+  cursor: pointer;
+}
+
+.CV:hover{
+  background: -webkit-linear-gradient(45deg(red, blue));
+  filter: opacity(100%);
+  filter: brightness(150%);
+  text-decoration: underline;
 }
 
 .Contact{

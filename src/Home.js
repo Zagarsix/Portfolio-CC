@@ -30,9 +30,9 @@ const Home = () => {
       <div className='row p-2 mt-4 align-items-start'>
         <div className='col-12'>
           <h1 className='p-2 fst-italic' data-aos='fade-right' data-aos-delay='500'>Estudié en <strong>4Geeks Academy</strong></h1>
-          <h1 className='mt-3' data-aos='fade-left' data-aos-delay='500'>adquiriendo conocimientos en <strong>Javascript y Python,</strong><br />
+          <h1 className='mt-5' data-aos='fade-left' data-aos-delay='600'>adquiriendo conocimientos en <strong>Javascript y Python,</strong><br />
             y tecnologías como <strong>Html5, CSS3, React, Bootstrap, Sql Alchemy, Flask y Git.</strong><br />
-            Mi objetivo es profundizar en estos lenguajes y aprender nuevas tecnologías complementarias.
+           <h1 className='mt-5' data-aos='fade-right' data-aos-delay='600'>Mi objetivo es profundizar en estos <strong>lenguajes</strong> y aprender nuevas <strong>tecnologías complementarias.</strong></h1>
           </h1>
         </div>
       </div>
