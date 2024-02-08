@@ -28,10 +28,11 @@ body {
 }
 
 .navbar-brand{
-  transition: all .2s ease-out;
+  transition: all .5s ease-out;
 }
 
 .navbar-brand:hover{
+  transition: all .5s ease-in;
   transform: scale(1.2);
   transition-duration: .5s;
   filter: brightness(150%);
@@ -86,16 +87,30 @@ border-width: 1px;
 border-color: #38b6ff;
 }
 
+.myFamily{
+  height: 351px;
+  width: 526px;
+  padding: 5px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #38b6ff;
+}
+
 .CV{
   filter: opacity(60%);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .CV:hover{
-  background: -webkit-linear-gradient(45deg(red, blue));
+  background: linear-gradient(green,#38b6ff);
+  background-clip: text;
+  color: transparent;   
+  text-shadow: 0 0 0.2em rgb(0, 172, 0);
   filter: opacity(100%);
   filter: brightness(150%);
-  text-decoration: underline;
 }
 
 .Contact{

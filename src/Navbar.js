@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className="navbar fixed-top" style={{ background: "black" }}>
             <div className="container-fluid justify-content-between">
                 <Link className="navbar-brand px-2 mx-1" to="/">
-                    <img src={logoCC} alt="Zagarsix" width="200" height="70"></img>
+                    <img src={logoCC} alt="Zagarsix" width="180" height="50"></img>
                 </Link>
                 <div className="section">
                     <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}>
