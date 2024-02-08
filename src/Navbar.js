@@ -30,8 +30,10 @@ const Navbar = () => {
                         </ul>
                     </nav>
                 </div>
-                <div>
-                    <div className="btn btn-success" onClick={() => { handleClick('/About') }}>Comencemos</div>
+                <div className="form-check form-switch px-2 mx-2">
+                    <input className="form-check-input" type="checkbox" role="switch" id="DefaultNight" />
+                    <label className="form-check-label" for="DefaultNight"><i class="fa-regular fa-moon fa-2xl"></i></label>
+                    {/* <i className="fa-regular fa-sun"></i>                 */}
                 </div>
             </div>
         </nav>
