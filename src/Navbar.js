@@ -3,9 +3,9 @@ import logoCC from "./media/logoDark.png"
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    const handleClick = (url) => {
-        window.open(url, '__blank', 'noopener,noreferrer');
-    }
+    // const handleClick = (url) => {
+    //     window.open(url, '__blank', 'noopener,noreferrer');
+    // }
     return (
         <nav className="navbar fixed-top" style={{ background: "black" }}>
             <div className="container-fluid justify-content-between">
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
                 <div className="form-check form-switch px-2 mx-2">
                     <input className="form-check-input" type="checkbox" role="switch" id="DefaultNight" />
-                    <label className="form-check-label" for="DefaultNight"><i class="fa-regular fa-moon fa-2xl"></i></label>
+                    <label className="form-check-label" htmlFor="DefaultNight"><i className="fa-regular fa-moon fa-2xl"></i></label>
                     {/* <i className="fa-regular fa-sun"></i>                 */}
                 </div>
             </div>

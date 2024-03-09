@@ -35,7 +35,7 @@ const About = () => {
         <div className='col-12'>
           <h3 className='mt-5' data-aos='fade-right' data-aos-delay='600'>
             <ul className='justify-content-start align-items-start'>
-              <li>Estudié <i>Química Ambiental</i> en la <strong>Universidad de Chile.</strong></li>
+              <li>Antes de conocer el mundo IT, estudié <i>Química Ambiental</i> en la <strong>Universidad de Chile.</strong></li>
               <li>Soy un músico autodidacta. Me encanta tocar <strong>batería.</strong></li>
               <li>En mis tiempos libres, también soy un <strong>jugador semi-profesional de tenis de mesa.</strong></li>
               <li>Y gran parte de mi tiempo, lo dedico a <strong>mi familia </strong>. <i>Un gran pedazo de mi corazón</i> plasmado en una imagen.</li>
