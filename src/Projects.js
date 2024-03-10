@@ -15,7 +15,7 @@ const Projects = () => {
     <div className='Projects container d-flex flex-column justify-content-center'>
       <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 w-80'>
         <div className="col" data-aos='flip-up' data-aos-delay='400'>
-          <div className="card" onClick={() => handleClick('https://google.cl')}>
+          <div className="card" onClick={() => handleClick('https://clon-meetup.vercel.app/')}>
             <img src={clonMeetup} className="card-img" alt="Clon de Meetup"/>
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Clon de Meetup</h5>
@@ -25,7 +25,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='600'>
-          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
+          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix/Final-Project-Psicoreinventar') }}>
             <img src={psicoreinventar} className="card-img" alt="Proyecto final: Psicoreinventar" />
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Psicoreinventar</h5>
@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='800'>
-          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
+          <div className="card" onClick={() => { handleClick('https://battleship-online.vercel.app/') }}>
             <img src={battleship} className="card-img" alt="Battleship game" />
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Battleship</h5>
@@ -45,7 +45,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1000'>
-          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
+          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix/Starwars-blog-reading-list-Code') }}>
             <img src={starwars} className="card-img" alt="Clon sencillo del blog de Star Wars" />
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Star Wars Blog</h5>
@@ -55,7 +55,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1200'>
-          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
+          <div className="card" onClick={() => { handleClick('https://tic-tac-toe-with-react-code-hspb.vercel.app/') }}>
             <img src={tictactoe} className="card-img" alt="Tictactoe game" />
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">TicTacToe</h5>
@@ -65,7 +65,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1400'>
-          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix') }}>
+          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix/JWT-Authentication-Code') }}>
             <img src={jwt} className="card-img" alt="Login básico con JWT authentication" />
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">JWT Authentication</h5>
