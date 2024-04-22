@@ -45,7 +45,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col" data-aos='flip-up' data-aos-delay='1000'>
-          <div className="card" onClick={() => { handleClick('https://github.com/Zagarsix/Starwars-blog-reading-list-Code') }}>
+          <div className="card" onClick={() => { handleClick('https://starwars-blog-reading-list-code.vercel.app/') }}>
             <img src={starwars} className="card-img" alt="Clon sencillo del blog de Star Wars" />
             <div className="card-img-overlay d-flex flex-column justify-content-start">
               <h5 className="card-title fw-bold">Star Wars Blog</h5>

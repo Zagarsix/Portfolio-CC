@@ -176,7 +176,7 @@ filter: opacity(40%);
   filter: brightness(140%);
 }
 
-footer {
+.footer {
   background-color: black;
   bottom: 0;
   width: 100%;
