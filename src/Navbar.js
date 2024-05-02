@@ -22,9 +22,9 @@ const Navbar = () => {
                         aria-controls="navbarResponsive"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
-                        style={{ background: "green" }}
+                        style={{ background: "#00ac00" }}
                     >
-                        Menú <i className="fas fa-bars" />
+                        Menú &ensp; <i className="fas fa-bars" />
                     </button>
                     <div className="collapse navbar-collapse px-3 mx-3" id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
                         {/* <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}> */}

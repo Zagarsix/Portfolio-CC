@@ -8,13 +8,13 @@ const Home = () => {
   //   window.open(url, '__blank', 'noopener,noreferrer');
   // }
   return (
-    <div className='Home container-fluid d-flex flex-column justify-content-center'>
+    <div className='Home container-fluid d-flex flex-column justify-content-around'>
       {/* <div className="row">
         <div className="col-md-12">
           <div className="btn btn-success" onClick={() => { handleClick('https://github.com/Zagarsix') }}>Bienvenido</div>
         </div>
       </div> */}
-      <div className='row justify-content-center align-items-center'>
+      <div className='row justify-content-between align-items-start'>
         <div className='col-md-3 p-3 mb-5'>
           <img src={profile} className="img-fluid rounded-circle h-50 w-20" alt='I am'></img>
         </div>
@@ -31,9 +31,9 @@ const Home = () => {
         <div className='col-12'>
           <h1 className='p-2 fst-italic' data-aos='fade-right' data-aos-delay='500'>Estudié en <strong>4Geeks Academy</strong></h1>
           <h1 className='mt-5' data-aos='fade-left' data-aos-delay='600'>adquiriendo conocimientos en <strong>Javascript y Python,</strong><br />
-            y tecnologías como <strong>Html5, CSS3, React, Bootstrap, Sql Alchemy, Flask y Git.</strong><br />
-           <h1 className='mt-5' data-aos='fade-right' data-aos-delay='600'>Mi objetivo es profundizar en estos <strong>lenguajes</strong> y aprender nuevas <strong>tecnologías complementarias.</strong></h1>
-          </h1>
+            y tecnologías como <strong>Html5, CSS3, React, Bootstrap, Sql Alchemy, Flask y Git.</strong><br /> </h1>
+          <h1 className='mt-5' data-aos='fade-right' data-aos-delay='600'>Mi objetivo es profundizar en estos <strong>lenguajes</strong> y aprender nuevas <strong>tecnologías complementarias.</strong></h1>
+
         </div>
       </div>
     </div>

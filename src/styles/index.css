@@ -68,7 +68,7 @@ margin: 80px;
 /* Main Component Styling */
 .About, .Preskills, .Tools, .Projects, .Interests, .Contact{
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: visible;
   padding: 20px 150px 100px 150px;
   margin-top: 130px;
   margin-bottom: 100px;
