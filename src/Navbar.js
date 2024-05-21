@@ -13,7 +13,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg" style={{ background: "black" }}>
                 <div className="container px-4 px-lg-5">
                     <Link className="navbar-brand px-2 mx-1" to="/" onClick={() => setIsNavCollapsed(true)}>
-                        <img src={logoCC} alt="Zagarsix" width="180" height="50"></img>
+                        <img src={logoCC} alt="Zagarsix" width="180" height="50" />
                     </Link>
                     <button
                         className="navbar-toggler"
@@ -28,11 +28,11 @@ const Navbar = () => {
                     >
                         Menú &ensp; <i className="fas fa-bars" />
                     </button>
-                    <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
+                    <div className={`${isNavCollapsed ? 'collapse' : 'collapsing show'} navbar-collapse px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
                         {/* <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}> */}
-                        <ul className="nav nav-underline ms-auto">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/About" onClick={() => setIsNavCollapsed(true)}>Sobre mí</Link>
+                                <Link className="nav-link text-light" to="/About" onClick={() => setIsNavCollapsed(true)}>Sobre mí</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Tools" onClick={() => setIsNavCollapsed(true)}>Lenguajes y herramientas</Link>

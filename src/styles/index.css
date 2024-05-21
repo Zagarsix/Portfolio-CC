@@ -3,13 +3,13 @@ background-image: linear-gradient(45deg, black,rgb(5, 5, 87));
  color: #38b6ff;
 */
 
-html{
+html {
   height: 100%;
 }
 
 body {
   background-color: black;
-  background-image: linear-gradient(45deg, black,rgb(5, 5, 87));
+  background-image: linear-gradient(45deg, black, rgb(5, 5, 87));
   height: 100%;
   font-family: 'Cabin', sans-serif;
   color: #38b6ff;
@@ -27,27 +27,60 @@ body {
   border-bottom-width: 1px;
 }
 
-.navbar-brand{
+@media (max-width: 992px) {
+  .navbar-nav .nav-item {
+    text-align: start;
+  }
+
+  .navbar-collapse {
+    transition: height 0.5s ease, opacity 0.5s ease;
+  }
+
+  .navbar-collapse.collapse {
+    height: 0;
+    opacity: 0;
+    display: none;
+  }
+
+  .navbar-collapse.collapsing {
+    height: auto;
+    opacity: 1;
+    display: block;
+  }
+
+  .navbar-collapse.show {
+    height: auto;
+    opacity: 1;
+    display: block !important;
+  }
+}
+
+.navbar-brand {
   transition: all .5s ease-out;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   transition: all .5s ease-in;
   transform: scale(1.2);
   transition-duration: .5s;
   filter: brightness(150%);
 }
-.nav-link{
+
+.nav-link {
   padding: 5px;
-  margin-inline: 5px; 
+  margin-inline: 5px;
+  color: #38b6ff !important;
 }
-.nav-link:hover{
+
+.nav-link:hover,
+.nav-livk:focus {
   filter: brightness(150%);
-  color: #38b6ff;
+  color: #38b6ff !important;
+  text-decoration: underline solid 2px;
 }
 
 /* Dashboard Styling */
-.Home{
+.Home {
   color: #38b6ff;
   min-height: 100vh;
   padding: 20px 150px 100px 150px;
@@ -55,18 +88,24 @@ body {
   margin-bottom: 150px;
 }
 
-#specialName{
-  color: rgb(1, 211, 211);
+#specialName {
+  color: #01d3d3;
   text-shadow: 0 0 0.2em rgb(0, 172, 0), 0 0 0.2em green,
-0 0 0.2em green;
-font-weight: 800;
+    0 0 0.2em green;
+  font-weight: 800;
 }
-.angles{
-margin: 80px;
+
+.angles {
+  margin: 80px;
 }
 
 /* Main Component Styling */
-.About, .Preskills, .Tools, .Projects, .Interests, .Contact{
+.About,
+.Preskills,
+.Tools,
+.Projects,
+.Interests,
+.Contact {
   min-height: 100vh;
   overflow-x: visible;
   padding: 20px 150px 100px 150px;
@@ -74,20 +113,21 @@ margin: 80px;
   margin-bottom: 100px;
 }
 
-li{
+li {
   padding: 5px;
 }
-.Perfil2{
-height: 180px;
-width: 150px;
-padding: 5px;
-border-radius: 10px;
-border-style: solid;
-border-width: 1px;
-border-color: #38b6ff;
+
+.Perfil2 {
+  height: 180px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #38b6ff;
 }
 
-.myFamily{
+.myFamily {
   height: 351px;
   width: 526px;
   padding: 5px;
@@ -98,80 +138,84 @@ border-color: #38b6ff;
   border-color: #38b6ff;
 }
 
-.CV{
+.CV {
   filter: opacity(60%);
   cursor: pointer;
   text-decoration: underline;
 }
 
-.CV:hover{
-  background: linear-gradient(green,#38b6ff);
+.CV:hover {
+  background: linear-gradient(green, #38b6ff);
   background-clip: text;
-  color: transparent;   
+  color: transparent;
   text-shadow: 0 0 0.2em rgb(0, 172, 0);
   filter: opacity(100%);
   filter: brightness(150%);
 }
 
-.Contact{
+.Contact {
   overflow-x: hidden;
   display: flex;
 }
 
-.Projects{
+.Projects {
   overflow-x: hidden;
   display: flex;
   align-items: center;
 }
 
-.Review{
+.Review {
   margin-top: 50px;
 }
-.fa-brands, .fa-solid{
-padding: 50px;
-margin: 50px;
-filter: opacity(40%);
+
+.fa-brands,
+.fa-solid {
+  padding: 50px;
+  margin: 50px;
+  filter: opacity(40%);
 }
 
-.fa-brands:hover, .fa-solid:hover{
+.fa-brands:hover,
+.fa-solid:hover {
   filter: opacity(150%);
-  filter:brightness(180%);
+  filter: brightness(180%);
   cursor: pointer;
-  }
+}
 
 /* Card Styling */
-.card-img{
+.card-img {
   width: 100%;
   height: 100%;
 }
-@supports(object-fit: cover){
-    .card-img{
-      height: 100%;
-      object-fit:fill;
-      object-position:center center;
-    }
+
+@supports(object-fit: cover) {
+  .card-img {
+    height: 100%;
+    object-fit: fill;
+    object-position: center center;
+  }
 }
 
-.card-img-overlay{
+.card-img-overlay {
   background-color: rgba(161, 253, 238, 0.5);
   color: rgb(5, 5, 87);
   font-weight: 800;
   filter: opacity(70%);
 }
 
-.card-img-overlay:hover{
+.card-img-overlay:hover {
   filter: opacity(100%);
   cursor: pointer;
 }
 
-.card{
+.card {
   transition: transform .2s;
   width: auto;
   height: 250px;
   display: block;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.1);
   filter: brightness(140%);
 }
