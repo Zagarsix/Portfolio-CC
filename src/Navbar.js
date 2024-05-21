@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logoCC from "./media/logoDark.png"
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    // const handleClick = (url) => {
-    //     window.open(url, '__blank', 'noopener,noreferrer');
-    // }
+    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
     return <>
         <main className="flex-shrink-0">
             {/*Navigation*/}
             <nav className="navbar navbar-expand-lg" style={{ background: "black" }}>
                 <div className="container px-4 px-lg-5">
-                    <Link className="navbar-brand px-2 mx-1" to="/">
+                    <Link className="navbar-brand px-2 mx-1" to="/" onClick={() => setIsNavCollapsed(true)}>
                         <img src={logoCC} alt="Zagarsix" width="180" height="50"></img>
                     </Link>
                     <button
@@ -20,26 +21,27 @@ const Navbar = () => {
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive"
                         aria-controls="navbarResponsive"
-                        aria-expanded="false"
+                        aria-expanded={!isNavCollapsed}
                         aria-label="Toggle navigation"
                         style={{ background: "#00ac00" }}
+                        onClick={handleNavCollapse}
                     >
                         Menú &ensp; <i className="fas fa-bars" />
                     </button>
-                    <div className="collapse navbar-collapse px-3 mx-3" id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
+                    <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
                         {/* <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}> */}
                         <ul className="nav nav-underline ms-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/About">Sobre mí</Link>
+                                <Link className="nav-link" to="/About" onClick={() => setIsNavCollapsed(true)}>Sobre mí</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Tools">Lenguajes y herramientas</Link>
+                                <Link className="nav-link" to="/Tools" onClick={() => setIsNavCollapsed(true)}>Lenguajes y herramientas</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Projects">Proyectos</Link>
+                                <Link className="nav-link" to="/Projects" onClick={() => setIsNavCollapsed(true)}>Proyectos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Contact">Contacto</Link>
+                                <Link className="nav-link" to="/Contact" onClick={() => setIsNavCollapsed(true)}>Contacto</Link>
                             </li>
                         </ul>
                         {/* </nav> */}
