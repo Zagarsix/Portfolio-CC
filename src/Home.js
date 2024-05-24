@@ -33,11 +33,10 @@ const Home = () => {
           <h1 className='mt-5' data-aos='fade-left' data-aos-delay='600'>adquiriendo conocimientos en <strong>Javascript y Python,</strong><br />
             y tecnologías como <strong>Html5, CSS3, React, Bootstrap, Sql Alchemy, Flask y Git.</strong><br /> </h1>
           <h1 className='mt-5' data-aos='fade-right' data-aos-delay='600'>Mi objetivo es profundizar en estos <strong>lenguajes</strong> y aprender nuevas <strong>tecnologías complementarias.</strong></h1>
-
         </div>
       </div>
     </div>
   )
 }
 
-export default Home
+export default Home;
