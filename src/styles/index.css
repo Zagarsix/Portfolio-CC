@@ -42,17 +42,21 @@ body {
     display: none;
   }
 
-  .navbar-collapse.collapsing {
-    height: auto;
-    opacity: 1;
-    display: block;
-  }
-
   .navbar-collapse.show {
     height: auto;
     opacity: 1;
     display: block !important;
   }
+}
+
+/*Styles for the menu button */
+.navbar-toggler {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler i {
+  margin: 3px;
 }
 
 .navbar-brand {

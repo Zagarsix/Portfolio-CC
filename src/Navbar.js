@@ -26,9 +26,17 @@ const Navbar = () => {
                         style={{ background: "#00ac00" }}
                         onClick={handleNavCollapse}
                     >
-                        Menú &ensp; <i className="fas fa-bars" />
+                        {isNavCollapsed ? (
+                            <>
+                                <i className="fas fa-bars" />
+                            </>
+                        ) : (
+                            <>
+                                <i className="fas fa-times" />
+                            </>
+                        )}
                     </button>
-                    <div className={`${isNavCollapsed ? 'collapse' : 'collapsing show'} navbar-collapse px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
+                    <div className={`navbar-collapse ${isNavCollapsed ? 'collapse' : 'show'} px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
                         {/* <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}> */}
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
