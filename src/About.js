@@ -11,7 +11,7 @@ const About = () => {
     <div className='About container-fluid d-flex flex-column justify-content-start'>
       <div className='row justify-content-end align-items-center'>
         <div className='col-md-6'>
-          <h1 className='display-3 fst-italic'>Hola<i class="fa-solid fa-hand fa-shake"></i>
+          <h1 className='display-3 fst-italic'>Hola<i className="fa-solid fa-hand fa-shake"></i>
           </h1>
         </div>
         <div className='col-md-2'>
