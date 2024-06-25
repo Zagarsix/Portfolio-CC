@@ -27,12 +27,12 @@ body {
   border-bottom-width: 1px;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .navbar-nav .nav-item {
     text-align: start;
-  }
+  } */
 
-  .navbar-collapse {
+  /* .navbar-collapse {
     transition: height 0.5s ease, opacity 0.5s ease;
   }
 
@@ -46,8 +46,8 @@ body {
     height: auto;
     opacity: 1;
     display: block !important;
-  }
-}
+  } */
+/* } */
 
 /*Styles for the menu button */
 .navbar-toggler {

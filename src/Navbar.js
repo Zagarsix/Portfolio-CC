@@ -7,6 +7,8 @@ const Navbar = () => {
 
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
+    const navCollapseClass = isNavCollapsed ? 'collapse' : '';
+
     return <>
         <main className="flex-shrink-0">
             {/*Navigation*/}
@@ -21,7 +23,7 @@ const Navbar = () => {
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive"
                         aria-controls="navbarResponsive"
-                        aria-expanded={!isNavCollapsed}
+                        aria-expanded={!isNavCollapsed ? true : false}
                         aria-label="Toggle navigation"
                         style={{ background: "#00ac00" }}
                         onClick={handleNavCollapse}
@@ -36,7 +38,7 @@ const Navbar = () => {
                             </>
                         )}
                     </button>
-                    <div className={`navbar-collapse ${isNavCollapsed ? 'collapse' : 'show'} px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
+                    <div className={`navbar-collapse ${navCollapseClass} px-3 mx-3`} id="navbarResponsive" style={{ fontWeight: "bold", fontSize: "17px" }}>
                         {/* <nav className="navbarFull px-3 mx-3" style={{ fontWeight: "bold", fontSize: "17px" }}> */}
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
